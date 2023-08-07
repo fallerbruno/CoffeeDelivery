@@ -56,6 +56,7 @@ export function Cart() {
       return acc + item.valueTotal
     }, 0)
     setTotal(totalValue)
+    setDelivery(3.5)
   }
 
   useEffect(() => {
